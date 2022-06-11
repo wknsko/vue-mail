@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(99, 117, 148);
+}
+
+.link {
+    color: rgb(29, 48, 97);
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+a:hover {
+    color: rgb(44, 73, 146);
+    text-decoration: underline;
+}
+
+.card {
+    top: 130px;
+    margin: 0 auto;
+}
+
+h2 {
+    padding-top: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(42, 67, 111);
+}
+
+h6 {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: rgb(86, 122, 184);
+    border-color: rgb(100, 122, 161);
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: rgb(77, 117, 188);
+    border-color: rgb(71, 109, 174);
+}
+
+label {
+    font-size: 15px;
+}
+
+.card-body {
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+input {
+    margin: 0;
+    outline: none;
+    border: 2px solid #ccc;
+    display: block;
+    width: 100%;
+    color: #2c3e50;
+    padding: 0.5rem 1.5rem;
+    border-radius: 3px;
+    font-size: 1rem;
+}
